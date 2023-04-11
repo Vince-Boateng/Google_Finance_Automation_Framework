@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Google Finance App Stock Symbols Regression Suite">
+    <listeners>
+        <listener class-name="com.google.finance.listeners.Listeners">
+
+        </listener>
+
+    </listeners>
+    <test name="Stock Symbols Verifications Tests">
+        <classes>
+            <class name="com.google.finance.tests.GoogleFinancePageTests"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

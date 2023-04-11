@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="21442" started-at="2023-04-11T12:42:52 EDT" finished-at="2023-04-11T12:43:14 EDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="21442" started-at="2023-04-11T12:42:52 EDT" finished-at="2023-04-11T12:43:14 EDT">
+      <class name="com.google.finance.tests.GoogleFinancePageTests">
+        <test-method status="PASS" signature="launchGoogleFinanceApplication()[pri:0, instance:com.google.finance.tests.GoogleFinancePageTests@470a696f]" name="launchGoogleFinanceApplication" is-config="true" duration-ms="20559" started-at="2023-04-11T12:42:52 EDT" finished-at="2023-04-11T12:43:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGoogleFinanceApplication -->
+        <test-method status="PASS" signature="googleFinancePageTitleVerificationTest()[pri:1, instance:com.google.finance.tests.GoogleFinancePageTests@470a696f]" name="googleFinancePageTitleVerificationTest" duration-ms="662" started-at="2023-04-11T12:43:13 EDT" finished-at="2023-04-11T12:43:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleFinancePageTitleVerificationTest -->
+        <test-method status="PASS" signature="testGoogleFinanceStockSymbols()[pri:2, instance:com.google.finance.tests.GoogleFinancePageTests@470a696f]" name="testGoogleFinanceStockSymbols" duration-ms="156" started-at="2023-04-11T12:43:14 EDT" finished-at="2023-04-11T12:43:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleFinanceStockSymbols -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.finance.tests.GoogleFinancePageTests@470a696f]" name="tearDown" is-config="true" duration-ms="831" started-at="2023-04-11T12:43:14 EDT" finished-at="2023-04-11T12:43:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.finance.tests.GoogleFinancePageTests -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

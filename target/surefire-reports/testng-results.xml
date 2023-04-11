@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Google Finance App Stock Symbols Regression Suite" duration-ms="3644" started-at="2023-04-11T12:54:42 EDT" finished-at="2023-04-11T12:54:45 EDT">
+    <groups>
+    </groups>
+    <test name="Stock Symbols Verifications Tests" duration-ms="3644" started-at="2023-04-11T12:54:42 EDT" finished-at="2023-04-11T12:54:45 EDT">
+      <class name="com.google.finance.tests.GoogleFinancePageTests">
+        <test-method status="PASS" signature="launchGoogleFinanceApplication()[pri:0, instance:com.google.finance.tests.GoogleFinancePageTests@f9879ac]" name="launchGoogleFinanceApplication" is-config="true" duration-ms="2437" started-at="2023-04-11T12:54:42 EDT" finished-at="2023-04-11T12:54:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGoogleFinanceApplication -->
+        <test-method status="PASS" signature="googleFinancePageTitleVerificationTest()[pri:1, instance:com.google.finance.tests.GoogleFinancePageTests@f9879ac]" name="googleFinancePageTitleVerificationTest" duration-ms="924" started-at="2023-04-11T12:54:44 EDT" finished-at="2023-04-11T12:54:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleFinancePageTitleVerificationTest -->
+        <test-method status="PASS" signature="testGoogleFinanceStockSymbols()[pri:2, instance:com.google.finance.tests.GoogleFinancePageTests@f9879ac]" name="testGoogleFinanceStockSymbols" duration-ms="205" started-at="2023-04-11T12:54:45 EDT" finished-at="2023-04-11T12:54:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleFinanceStockSymbols -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.finance.tests.GoogleFinancePageTests@f9879ac]" name="tearDown" is-config="true" duration-ms="1041" started-at="2023-04-11T12:54:46 EDT" finished-at="2023-04-11T12:54:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.google.finance.tests.GoogleFinancePageTests -->
+    </test> <!-- Stock Symbols Verifications Tests -->
+  </suite> <!-- Google Finance App Stock Symbols Regression Suite -->
+</testng-results>
